@@ -1,0 +1,67 @@
+.triangle{
+  padding-left: 50px;
+  float: left;
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+}
+.logo{
+  margin: 20px 60px 20px 20px;
+  float: right;
+  width: 15%;
+  height: 15%;
+  object-fit: contain;
+}
+div{
+  position: fixed;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-right: 200px;
+  margin-left: 50%;
+}
+h1{
+  padding: 100px 0px 0px 0px;
+  font-family: sans-serif;
+  margin-bottom: 50px
+}
+h2{
+  font-family: sans-serif;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #32A8A2;
+  display: inline-block;
+}
+h3{
+  font-family: Arial;
+  text-decoration: underline;
+  padding: 600px 600px 0px 50px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button{
+  padding: 14px 20px;
+  margin: 8px 0;
+  width: 100%;
+}
+p{
+  margin-left: 120%;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+}
+a{
+  margin-right: 8px;
+}
+a:link {
+  text-decoration: none;
+  color: #32A8A2
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
